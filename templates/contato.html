@@ -1,0 +1,43 @@
+{%extends 'base.html' %}
+{%block title%}UNES - Contato{%endblock title%}
+
+{%block link%}../static/contato.css{%endblock link%}
+
+
+
+{%block conteudo%}
+<div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="col-11 mx-auto h-100">
+        <div class="text-box">
+            <h1>Entre em contato</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cum quam iure velit non ut sunt veniam laborum distinctio qui, et nisi quibusdam fugiat tenetur laudantium officiis blanditiis repudiandae suscipit.</p>
+            <hr>
+        </div>
+
+
+    
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-section">
+                    <div class="form-centralized">
+                        <label for="email-label">Digite seu email:</label><br>
+                        <input type="email" id="email-label" name="email" class="form-control"><br>
+    
+                        <label for="assunto-label">Assunto: </label><br>
+                        <input type="text" id="assunto-label" name="assunto" class="form-control"><br>
+    
+                        <label for="description-label">Descrição: </label><br>
+                        <textarea name="description-field" id="description-label" cols="50" rows="12" class="form-control"></textarea><br>
+    
+                        <input type="submit" id="submit-button" class="btn btn-primary">
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+            
+        </div>
+    </div>
+</div>
+{%endblock conteudo%}

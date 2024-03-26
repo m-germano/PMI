@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+a{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+.top-bar{
+    width:100%;
+    height:1vh;
+    background-color:rgb(128, 128, 207);
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.div-header{
+    padding: 0.5rem 5%;
+    margin-bottom: 3vh;
+}
+
+.center-div-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 0vw;
+}
+
+.center-div-header img{
+    transition: all 300ms ease;
+}
+
+.center-div-header img:hover{
+    transform: scale(1.1);
+}
+
+.center-div-header ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.center-div-header ul li{
+    margin-inline: 1rem;
+}
+
+.center-div-header a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border: 0.1rem solid ;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    background-color: rgb(128, 128, 207);
+    border-radius: 0.3rem;
+    transition: all 300ms ease;
+}
+
+.center-div-header a:hover{
+    background-color: rgba(128, 128, 207,0.5);
+    
+}
+
+.text-box{
+    height: 15vh;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-section{
+    height: 50vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.form-centralized{
+    height:100%;
+    width:100%;
+    padding: 1rem;
+}
+
+.form-centralized input{
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+}
+
+.form-centralized textarea{
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+}
+
+
+
+#submit-button{
+    padding: 0.5rem 1,2rem;
+}
+
+
+
+
+
+
+footer{
+    padding: 3vh;
+    width: 100%; 
+    margin-top: 0vh;
+    text-align: center;
+    font-weight: bold;
+    bottom: 0; 
+}

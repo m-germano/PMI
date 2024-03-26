@@ -1,0 +1,26 @@
+{%extends 'base.html'%}
+{%block title%}UNES - Quem somos{%endblock title%}
+
+{%block link%}../static/quemsomos.css{%endblock link%}
+
+{%block conteudo%}
+<section class="quemsomos-section-text">
+
+    <h1>Quem somos</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta enim soluta doloremque numquam alias aperiam aliquam neque consequatur earum labore, facilis fuga excepturi inventore! Harum in rerum iure rem modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto aspernatur similique, odit vero nam tenetur veniam vel ducimus consequatur? Quam repudiandae delectus porro facere esse neque sit nemo iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi repudiandae dolores id sequi, impedit, dolore esse tenetur error natus quae quas officia aperiam adipisci deleniti vel hic placeat qui itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, cumque possimus. Temporibus provident tenetur quidem expedita placeat ullam? Quos quam dolor temporibus voluptas quia a cumque vitae in odio quae!</p>
+    <h1>5 motivos para estudar aqui</h1>
+
+    <ol class="list-group">
+        {% for item in itens %}
+            <li class="list-group-item">{{ item }}</li>
+        {% endfor %} 
+    </ol>
+
+   
+    <hr>
+    <h1>Objetivos</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, molestias! Molestiae provident illum cumque ex quod totam voluptas vero sit culpa. Laboriosam ad debitis eos, libero harum nihil aperiam iure! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, accusantium natus quam quasi, molestias veritatis consectetur libero corrupti inventore doloremque debitis! Nisi qui quam a placeat repellat hic modi rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, dolorem. Est, quas commodi adipisci numquam distinctio iure assumenda dolor, sequi repellendus id nam omnis? Nulla commodi perspiciatis pariatur consectetur labore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos molestiae, sunt molestias ipsum consectetur, magni ducimus explicabo expedita rerum obcaecati porro velit nihil similique nam maxime enim id corporis sint.</p>
+</section>
+</div>
+
+{%endblock conteudo%}
